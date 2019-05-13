@@ -1,0 +1,80 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  color: #49367e;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+a.icon-link:before {
+  content: url('login.svg');
+  margin-right: 6.5px;
+}
+
+.main-article {
+  background: url('vipps-background.jpg');
+  color: white;
+}
+
+.button {
+  display: inline-block;
+  margin: 0 0 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 2rem;
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  line-height: 1;
+  cursor: pointer;
+  color: #49367e;
+  background-color: #fff;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: #49367e;
+}
+
+.button.secondary {
+  color: #fff;
+  background-color: #49367e;
+}
+
+.button.secondary:hover {
+  background-color: #6c52b5;
+}
+
+.button.secondary.hollow {
+  background-color: transparent;
+  border: 1px solid #49367e;
+  color: #49367e;
+}
+
+.button.secondary.hollow:hover {
+  border-color: #6c52b5;
+  color: #6c52b5;
+}
+
+footer {
+  background-color: #ff5b24;
+  padding: 1.4rem 0 1rem;
+  font-weight: 500;
+}
+
+.white {
+  color: #fff;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.inline-logo {
+  max-height: 1em;
+  vertical-align: bottom;
+}

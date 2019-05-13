@@ -1,0 +1,70 @@
+@font-face {
+  font-family: Vipps;
+  font-style: normal;
+  font-weight: 500;
+  src: url(VippsText-Regular-Web-ca319f6e65640f3f5d3b45785223a94d.woff2)
+    format('woff2');
+}
+
+@font-face {
+  font-family: Vipps;
+  font-style: normal;
+  font-weight: 300;
+  src: url(VippsText-Light-Web-3ba255a4394ade437f6286a16ace8d40.woff2)
+    format('woff2');
+}
+
+@font-face {
+  font-family: Vipps;
+  font-style: normal;
+  font-weight: 700;
+  src: url(VippsText-Bold-Web-a2c657afbcf9eec3015d34cad953b5fa.woff2)
+    format('woff2');
+}
+
+@font-face {
+  font-family: VippsHeader;
+  font-style: normal;
+  font-weight: 400;
+  src: url(VippsDisplay-Regular-Web-172867698929d98b8878b03227f236bb.woff2)
+    format('woff2');
+}
+
+body {
+  font-family: Vipps, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #000;
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: VippsHeader;
+  font-style: normal;
+  color: inherit;
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  color: #ff5b24;
+}
+
+h4,
+.h4 {
+  font-size: 1.125rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  font-size: inherit;
+  line-height: 1.6;
+}
