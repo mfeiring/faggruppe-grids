@@ -147,3 +147,8 @@ Noe av det som er spesielt digg med `grid-template-areas` er at det gjør det ve
 1. Lag en media-query som gjelder for skjermer som er mindre enn `700px` brede.
 2. Overskriv `grid-template-areas` inne i media-querien, slik at layouten matcher skissen for mobil.
 3. Gjør de nødvendige endringene på `grid-template-rows` og `grid-template-columns`.
+
+
+## 4 - Vipps
+
+Gjenskap forsiden på vipps.no, basert på filene i oppgaver-mappa.
