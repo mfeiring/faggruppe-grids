@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+}
+
+header {
+  background: #4a90e2;
+}
+
+nav {
+  background: #b0b7ef;
+}
+
+main {
+}
+
+footer {
+  background: #ff9f9f;
+}
